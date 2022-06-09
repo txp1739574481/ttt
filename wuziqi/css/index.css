@@ -1,0 +1,134 @@
+canvas {
+    display: block;
+    margin: 50px auto;
+    box-shadow: -2px -2px 2px #161616, 5px 5px 5px #161616;
+    cursor: pointer;
+}
+
+.btn-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-wrap div {
+    margin: 0 10px;
+}
+
+div>span {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(22, 18, 18);
+    background-color: #06f7ba;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.unable span {
+    background: #a7a5a7;
+    color: #f1f1e8;
+}
+
+
+/* 输出胜负结果 */
+
+#result-wrap {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+
+/* 人 、 计算机 先后手 */
+
+#result-wrap1 {
+    position: center;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+
+/* 页面背景 */
+
+body {
+    background-image: url(/image/R-C.png);
+    content: "";
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #f3f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: url(E:/source/material/images/c.jpg) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#loginDiv {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(75, 81, 95, 0.3);
+    box-shadow: 7px 7px 17px rgba(52, 56, 66, 0.5);
+    border-radius: 5px;
+}
+
+#name_trip {
+    margin-left: 50px;
+    color: red;
+}
+
+p {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(2, 24, 24);
+    font-size: 20px;
+}
+
+input {
+    margin-left: 0px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    width: 300px;
+    background-color: rgba(204, 180, 204, 0.5);
+    outline: none;
+    color: #0c0116;
+    padding-left: 20px;
+}
+
+.button {
+    border-color: cornsilk;
+    background-color: rgba(100, 149, 237, .7);
+    color: aliceblue;
+    border-style: hidden;
+    border-radius: 5px;
+    width: 100px;
+    height: 31px;
+    font-size: 16px;
+    text-align: center;
+}
